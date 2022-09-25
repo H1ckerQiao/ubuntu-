@@ -7,7 +7,7 @@ int main(int argc, char** argv)
 	CvPoint center;
     double scale = -3; 
 
-	IplImage* image = cvLoadImage("lena.jpg");
+	IplImage* image = cvLoadImage("qiao.jpg");
 	argc == 2? cvLoadImage(argv[1]) : 0;
 	
 	cvShowImage("Image", image);
